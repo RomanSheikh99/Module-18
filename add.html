@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Number</title>
+    <style>
+        body{
+            font-family: Arial;
+            font-size: 10vw;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    Add Two Number
+    <script>
+        function addNumber(num1,num2){
+            var total = num1 + num2;
+            return total;
+        }
+
+        var firstNum = parseFloat(prompt("Enter First Number"));
+        var secondNum = parseFloat(prompt("Enter Second Number"));
+
+        document.write(addNumber(firstNum,secondNum));
+    </script>
+
+</body>
+</html>
